@@ -6,8 +6,8 @@ void main() {
   int num = 1;
   for (int i = 1; i <= rows; i++) {
     for (int j = 1; j <= i; j++) {
-      stdout.write(num);
-      num += 3;
+      stdout.write("$num\t");
+      num += rows;
     }
     print(" ");
   }
